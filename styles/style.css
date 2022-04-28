@@ -242,3 +242,8 @@ footer a:hover{
     display: block;
 }
 
+.back{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}

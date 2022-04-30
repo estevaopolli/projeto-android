@@ -89,6 +89,7 @@ nav{
     justify-content: space-between;
     background-color: var(--cor3);
     box-shadow: -1px 7px 8px 2px #00000042;
+    padding-left: 10px;
 }
 
 

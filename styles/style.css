@@ -68,7 +68,7 @@ header{
 }
 
 header > h1{
-    font-family: 'Franklin Gothic Medium', var(--fonte-destaque), 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-shadow: 2px 3px 3px #00000066;
     margin-bottom: 15px;

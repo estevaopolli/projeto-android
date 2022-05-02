@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../site_android/imagens/favicon.ico" type="image/x-icon">
+    <style>
+
+    </style>
 </head>
 <body>
     <header>
@@ -18,10 +22,45 @@
         <a href="manutencao.html" class="btnlogin">Login</a>
     </nav>
     <main>
-
+        <form action="">
+            <fieldset class="formBorder">
+                <legend class="formTitle">Fale Conosco</legend>
+                    <div>
+                        <label for="name" class="formLabel">Nome</label><br>
+                        <input type="text" id="name" class="formInput" required>
+                    </div>
+                    <div>
+                        <label for="surname" class="formLabel">Sobrenome</label><br>
+                        <input type="text" id="surname" class="formInput" required>
+                    </div>
+                    <div>
+                        <label for="email" class="formLabel">E-mail</label><br>
+                        <input type="email" id="email" class="formInput" required>
+                    </div>
+                    <div>
+                        <label for="phone" class="formLabel">Telefone</label><br>
+                        <input type="tel" id="phone" class="formInput" required>
+                    </div><br>
+                    <div>
+                        <label for="topic" class="formLabel">Assunto</label><br>
+                        <select name="topic" id="topic" class="formSelect" required>
+                            <option value="duvida">Dúvida</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="problema">Problema</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="Mensagem" class="formLabel">Mensagem</label><br>
+                        <textarea name="Mensagem" id="Mensagem" class="formText" required></textarea>
+                    </div>
+                    <input type="submit" class="formBtn">
+            </fieldset>
+        </form>
+        <div class="backFather"><a href="../index.html" class="backChildren">Voltar o menu</a></div>
     </main>
     <footer>
-
+        <p>Projeto idealizado por <a href="https://github.com/gustavoguanabara" target="_blanck">Gustavo Guanabara</a></p>
+        <p>Criado por <a href="https://github.com/estevaopolli" target="_blank">Estevão</a> para o <a href="https://youtube.com/cursoemvideo" target="_blank">Curso em Video</a>.</p>
     </footer>
 </body>
 </html>

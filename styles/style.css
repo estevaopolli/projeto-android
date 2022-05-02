@@ -6,7 +6,8 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;1,400&display=swap');
 
 :root{
     --cor0: #84E1AD;
@@ -17,7 +18,7 @@
     --cor5: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: "Bebas Neue", cursive;
+    --font-destaque: 'Radio Canada', sans-serif;
     --fonte-android: "idroid", cursive;
 
 }
@@ -247,8 +248,100 @@ footer a:hover{
     display: block;
 }
 
-.back{
-    display: flex;
-    justify-content: center;
-    background-color: white;
+.backFather{
+    text-align: center;
 }
+.backChildren{
+    background-color: white;
+    display: inline-block;
+    width: auto;
+}
+
+.formBorder{
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 15px;
+}
+
+.formBorder div{
+    margin-top: 10px;
+}
+
+.formTitle{
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    color: var(--cor3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.formLabel{
+    font-family: var(--font-destaque);
+    color: var(--cor4);
+    font-weight: bold;
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.formInput{
+    font-family: var(--font-destaque);
+    padding-left: 2px;
+    font-size: 14px;
+    width: 75%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid var(--cor2);
+    outline: none;
+    background: none;
+}
+
+.formSelect{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    padding-left: 5px;
+    background-color: #bdffda5e;
+    outline: none;
+}
+
+.formText{
+    resize: none;
+    width: 73%;
+    height: 100px;
+    outline: none;
+    background-color: #bdffda5e;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formBtn{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: #2fa866;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-top: 10px;
+    }
+
+.formBtn:hover{
+    transition: 0.2s;
+    background-color: #268852;
+}
+

@@ -345,3 +345,11 @@ footer a:hover{
     background-color: #268852;
 }
 
+.disclaimer{
+    text-align: right;
+    color: red;
+    font-size: 12px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
